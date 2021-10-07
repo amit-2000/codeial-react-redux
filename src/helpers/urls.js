@@ -1,4 +1,4 @@
-const API_ROOT =process.env.REACT_APP_ROOT_API;
+const API_ROOT = process.env.REACT_APP_ROOT_API;
 
 export const APIUrls = {
   login: () => `${API_ROOT}/users/login`,
