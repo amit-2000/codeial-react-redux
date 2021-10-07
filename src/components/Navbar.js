@@ -22,11 +22,13 @@ class Navbar extends React.Component {
     return (
       <nav className="nav">
         <div className="left-div">
-          <Link to="/">
-            <img
+          <Link to="/" className="nav-logo">
+            {/* <img
               src="https://ninjasfiles.s3.amazonaws.com/0000000000003454.png"
+              // src="https://api.freelogodesign.org/assets/thumb/logo/22268081_400.png"
               alt="logo"
-            />
+            /> */}
+            <span>LOGOO</span>
           </Link>
         </div>
         <div className="search-container">

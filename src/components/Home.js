@@ -8,7 +8,7 @@ class Home extends Component {
       <div className="home">
         <PostsList posts={posts} />
         {isLoggedin && <FriendsList friends={friends} />}
-        {isLoggedin && <Chat />}
+        {/* {isLoggedin && <Chat />} */}
       </div>
     );
   }

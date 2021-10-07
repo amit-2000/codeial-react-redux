@@ -204,6 +204,18 @@ code {
   color: #fff;
   font-size: 35px;
 }
+.nav-logo{
+  text-decoration: none;
+  color: transparent;
+  font-size: 24px;
+  font-weight: 700;
+  background-image: linear-gradient(to right bottom ,rgb(255, 255, 255) ,rgb(255, 251, 0));
+  background-clip: text;
+}
+
+
+
+
 .logo-icons {
   font-size: 40px;
   color: #ece60e;
@@ -257,6 +269,7 @@ nav .nav-links ul li:hover {
   height: 40px;
   width: 100%;
   font-size: 16px;
+  padding: 22px;
   padding-left: 31px;
   box-sizing: border-box;
   flex-grow: 1;
@@ -269,6 +282,7 @@ nav .nav-links ul li:hover {
   position: absolute;
   top: 10px;
   left: 7px;
+  
 }
 .search-results {
   background: #fff;
@@ -281,6 +295,8 @@ nav .nav-links ul li:hover {
   z-index: 100;
   max-height: 452px;
   overflow: scroll;
+  overflow-y: hidden;
+  overflow-x: hidden;  
   /* display: none; */
 }
 .search-results ul {
