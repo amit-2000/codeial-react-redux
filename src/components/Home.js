@@ -4,6 +4,7 @@ import { PostsList, FriendsList, Chat } from './';
 class Home extends Component {
   render() {
     const { posts, friends, isLoggedin } = this.props;
+    // console.log(friends);
     return (
       <div className="home">
         <PostsList posts={posts} />
